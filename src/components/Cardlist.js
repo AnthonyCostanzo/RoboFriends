@@ -3,6 +3,10 @@ import Card from './Card';
 
 const CardList = (props)=>
 {
+    if(true)
+    {
+        throw new Error;
+    }
     const {robots} = props;
     
     return (
