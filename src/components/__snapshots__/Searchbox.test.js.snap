@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox should match the snapshot 1`] = `
+<SearchBox
+  searchChange={[MockFunction]}
+/>
+`;
+
+exports[`SearchBox should pass a selected value to the onChange function 1`] = `
+<div
+  className="pa2"
+>
+  <input
+    aria-label="searchRobots"
+    className="pa3 ba b--green bg-lighest-blue"
+    placeholder="search robots"
+    type="search"
+  />
+</div>
+`;
